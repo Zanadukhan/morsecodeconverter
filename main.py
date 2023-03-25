@@ -5,7 +5,8 @@ translation = ''
 
 user_choice = input('Choose one of the options: 1. Translate sentence into Morse Code'
                     ' 2. Translate Morse Code into sentence ')
-user_sentence = input('enter sentence that you want to convert to morse or unconvert: ')
+user_sentence = input('enter sentence that you want to convert to morse or'
+                      ' unconvert (each morse code must be separated by a space): ')
 
 if user_choice == '1':
     for letter in user_sentence.upper().replace(' ', ''):
